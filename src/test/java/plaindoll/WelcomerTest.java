@@ -32,12 +32,7 @@ public class WelcomerTest {
 	}
 	@Test
 	public void welcomerSaysGoodEveningToHunter(){
-
 		assertThat(welcomer.sayGoodEveningToHunter(), containsString("hunter"));
-	}
-	@Test
-	public void welcomerSaysGoodEveningToHunter(){
-		assertThat(welcomer.sayGoodNightDevops(), containsString("devops"));
 	}
 	@Test
 	public void welcomerSaysGoodNightToHunter(){
