@@ -34,4 +34,8 @@ public class WelcomerTest {
 	public void welcomerSaysGoodEveningToHunter(){
 		assertThat(welcomer.sayGoodEveningToHunter(), containsString("hunter"));
 	}
+	@Test
+	public void welcomerSaysGoodEveningToHunter(){
+		assertThat(welcomer.sayGoodNightDevops(), containsString("devops"));
+	}
 }
